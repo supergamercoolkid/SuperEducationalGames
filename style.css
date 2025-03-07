@@ -16,6 +16,14 @@ button {
     color: #c8c8c8;
 }
 
+#center {
+    justify-content: center;
+}
+
+.multi {
+    display: inline-block;
+}
+
 button:hover {
     cursor: pointer;
     background-color: #5b5b5b;
