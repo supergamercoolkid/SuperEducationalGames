@@ -1,0 +1,40 @@
+body {
+    background-color: #191919;
+}
+
+p {
+    font-family: monospace;
+    color: #c8c8c8;
+    font-size: small;
+}
+
+button {
+    background-color: #4b4b4b;
+    border-color: #333;
+    border-style: solid;
+    font-family: monospace;
+    color: #c8c8c8;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #5b5b5b;
+    border-color: #333;
+    border-style: solid;
+    font-family: monospace;
+    color: #c8c8c8;
+}
+
+h1 {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    color: #c8c8c8;
+    font-size: xx-large;
+}
+
+hr {
+    color: #c8c8c8;
+    display: flex;
+    justify-content: center;
+}

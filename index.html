@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function stuffs() {
+            var url = '/Games/RetroBowl/index.html';
+            var win = window.open();
+            win.focus();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement("iframe");
+            iframe.style.margin = '0';
+            iframe.style.border = 0;
+            iframe.style.height = '100%';
+            iframe.style.width = '100%';
+            iframe.src = url;
+            window.location.href="/Games/RetroBowl/index.html"
+            win.document.body.appendChild(iframe);
+        }
+    </script>
+    <body>
+        <button onclick='stuffs()'>fullscreen</button>
+        <h1>cool kid site</h1>
+    </body>
+</html>
