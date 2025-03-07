@@ -2,8 +2,8 @@
 <html>
     <link rel="stylesheet" href="style.css">
     <script>
-        function stuffs() {
-            var url = 'https://supergamercoolkid.github.io/siyr/Games/RetroBowl/index.html';
+        function stuffs(link) {
+            var url = link;
             var win = window.open();
             win.focus();
             win.document.body.style.margin = '0';
@@ -18,7 +18,7 @@
         }
     </script>
     <body>
-        <button onclick='stuffs()'>fullscreen</button>
+        <button onclick="stuffs('https://supergamercoolkid.github.io/siyr/Games/RetroBowl/index.html')">fullscreen</button>
         <h1>cool kid site</h1>
     </body>
 </html>
