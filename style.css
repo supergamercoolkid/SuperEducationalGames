@@ -18,6 +18,7 @@ button {
 
 #center {
     justify-content: center;
+    border-style: solid;
 }
 
 .multi {
