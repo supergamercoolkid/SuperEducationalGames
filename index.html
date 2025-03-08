@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <script>
-     var url = 'aboutindex.html';
+    function load() {
+      var url = 'aboutindex.html';
       var win = window.open();
       win.focus();
       win.document.body.style.margin = '0';
@@ -13,5 +14,9 @@
       iframe.style.width = '100%';
       iframe.src = url;
       win.document.body.appendChild(iframe);
+    }
   </script>
+  <body>
+    <button width = 500 height = 500 onclick='load()'></button>
+  </body>
 </html>
