@@ -1,11 +1,18 @@
 body {
-    background-color: #191919;
+    background-color: #262626;
+    margin: 0;
+    padding: 0;
 }
 
 p {
     font-family: monospace;
     color: #c8c8c8;
     font-size: small;
+}
+
+#particles-js {
+    height: 100%;
+    background: #262626;
 }
 
 button {
