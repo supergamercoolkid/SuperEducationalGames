@@ -36,6 +36,7 @@ button {
     display: inline-block;
     position: absolute;
     top: 5%;
+    left: 2%;
 }
 
 button:hover {
