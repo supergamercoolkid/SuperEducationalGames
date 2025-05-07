@@ -34,6 +34,7 @@ button {
 
 .multi {
     display: inline-block;
+    position: absolute;
 }
 
 button:hover {
