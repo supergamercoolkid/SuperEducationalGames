@@ -1,3 +1,11 @@
+nav {
+    background-color: #373737;
+    position: fixed;
+    width: 100vw;
+    height: 7.5vh;
+}
+
+
 body {
     background-color: #262626;
     margin: 0;
@@ -14,7 +22,7 @@ p {
 #particles-js {
     height: 100vh;
     width: 100vw;
-    position: absolute:
+    position: absolute;
     background: #262626;
     z-index: -1000;
 }
@@ -35,7 +43,7 @@ button {
 .multi {
     display: inline-block;
     position: absolute;
-    top: 5%;
+    top: 10%;
     left: 1%;
 }
 
@@ -50,8 +58,7 @@ button:hover {
 
 h1 {
     font-family: monospace;
-    display: flex;
-    justify-content: center;
+    position: absolute;
     color: #c8c8c8;
     font-size: xx-large;
 }
