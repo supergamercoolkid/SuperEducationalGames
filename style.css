@@ -44,7 +44,8 @@ button {
     display: inline-block;
     position: absolute;
     top: 10%;
-    left: 1%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 button:hover {
